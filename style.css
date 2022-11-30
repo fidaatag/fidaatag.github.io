@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*===== header =====*/
+
+/*== logo ==*/
+.navigasi {
+    background-color: #990000;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    float: left;
+    margin-left: 70px;
+    margin-top: -30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FEFED5;
+}
+
+/*== menu ==*/
+.navigasi ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.navigasi li {
+    display: inline;
+    margin: 20px;
+    padding: 0px 10px;
+    color: #FEFED5;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navigasi li:hover {
+    font-weight: bold;
+}
+
+
+
+/*===== main =====*/
+main {
+    margin: 0px;
+    overflow: auto;
+}
+
+/*== main atas ==*/
+.content {
+    float: left;
+    margin-top: 100px;
+}
+
+figure img {
+    width: 100%;
+}
+
+aside {
+    float: right;
+    margin-top: 130px;
+    width: 50%;
+}
+
+article h1 {
+    font-size: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+}
+
+article h3 {
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 10%;
+}
+
+article p {
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+}
+
+article button {
+    margin: 5% 20%;
+}
+
+.BTNatas,
+.BTNbawah {
+    width: 40vh;
+    height: 8vh;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 50px;
+    background-color: #990000;
+    color: #FEFED5;
+}
+
+/*== tagline ==*/
+.cta {
+    clear: both;
+    margin: 0px;
+    text-align: center;
+    padding: 70px 70px 0px 70px;
+}
+
+.cta h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cta p,
+.cta h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cta h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/*===== main slider testi =====*/
+.testi {
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.testi-container {
+    background-color: #b9b910;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding: 1em 1.2em;
+    border-radius: 10px;
+
+}
+
+.testi button {
+    font-size: 10px;
+    width: 4em;
+    height: 4em;
+    margin: auto;
+    border-radius: 50%;
+    border: none;
+}
+
+.testi-container p {
+    text-align: center;
+}
+
+.testi-container img {
+    display: block;
+    margin: 1.8em auto 1.2em auto;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.testi-container h3,
+.testi-container h6 {
+    text-align: center;
+    margin: 0;
+}
+
+.cta2 {
+    margin: 5% auto;
+    width: 40em;
+    padding: 2%;
+    text-align: center;
+    background-color: #990000;
+    border-radius: 60px;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: #FEFED5;
+}
+
+/*===== main bawah =====*/
+.colum {
+    width: 1000px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.row {
+    border: 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    margin: 1px;
+    padding: 0px 5px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.tripel {
+    flex-wrap: nowrap;
+    border: 4px;
+    border-radius: 10px;
+}
+
+.one,
+.seven,
+.eleven {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.image {
+    width: 100%;
+    
+}
+
+.two,
+.six,
+.twoelev {
+    width: 20%;
+    padding: 10% 5% 0px 5%;
+}
+
+.three,
+.four,
+.five,
+.eight,
+.nine,
+.ten {
+    background-color: #FEFED5;
+    border: 10px solid #b9b910;
+    border-radius: 10px;
+    margin: 0 2%;
+    text-align: center;
+    line-height: 10px;
+}
+
+
+
+/*===== footer =====*/
+footer {
+    background-color: #990000;
+    color: #FEFED5;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    /* header */
+    .navigasi ul {
+        margin-right: 50px;
+    }
+
+    .navigasi li {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    /* main atas */
+    .content{
+        float: none;
+        margin: 120px auto 50px auto ;
+        width: 80%;
+    }
+    aside {
+        float: none;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    article h1 {
+        font-size: 80px;
+        margin: 0;
+    }
+    
+    article h3 {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    
+    article button {
+        margin: 5% auto;
+    }
+    
+
+    .cta {
+        margin: 0;
+    }
+
+    .testi {
+        height: 35vh;
+    }
+
+    .cta2 { 
+        width: 30em;
+        font-size: 20px;
+    }
+
+
+    /* main bawah*/
+    main {
+        overflow: auto;
+    }
+
+    .colum {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .box {
+        padding: 0;
+    }
+    .BTNbawah {
+       width: 100%; 
+    }
+
+    .image {
+        width: 80%;
+    }
+    .three,
+    .four,
+    .five,
+    .eight,
+    .nine,
+    .ten {
+    font-size: 90%;
+}
+
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (max-width: 750px) {
+
+    /* header */
+    .logo {
+        float: none;
+        padding: 0;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navigasi ul {
+        float: none;
+        margin-top: -15px;
+        margin-right: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navigasi li {
+        text-align: center;
+        margin: auto;
+        font-size: 10px;
+    }
+
+    /* main atas */
+
+    .content{
+        margin: 50px auto 50px auto ;
+        width: 100%;
+    }
+    .BTNatas{
+        width: 30vh;
+        height: 8vh;
+    }
+    .testi {
+        width: 70vw;
+        height: 70vh;
+    }
+    .cta2 { 
+        width: 15em;
+        font-size: 15px;
+    }
+
+    /* main bawah */
+    main {
+        margin: 10%;
+        overflow: auto;
+    }
+
+    .two {
+        width: 33%;
+    }
+
+    .one {
+        width: 67%;
+    }
+
+    .six {
+        width: 33%;
+    }
+
+    .seven {
+        width: 90%;
+    }
+
+    .eleven {
+        width: 70%;
+    }
+
+    .twoelev {
+        width: 33%;
+    }
+
+    .tripel {
+        flex-direction: column-reverse;
+    }
+
+    .three,
+    .four,
+    .five,
+    .eight,
+    .nine,
+    .ten {
+    margin: 5px;
+}
+    img {
+        width: 100%;
+    }
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (max-width: 400px) {
+
+    .testi {
+        width: 70vw;
+        height: 120vh;
+    }
+
+}
